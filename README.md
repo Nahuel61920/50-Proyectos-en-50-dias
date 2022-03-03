@@ -62,5 +62,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/api-map" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">06</td>
+<td>Calcular gastos de viaje</td>
+<th>10/02/22</th>
+<td><a href="https://nahuel61920.github.io/Calcular-gastos-de-viaje/" rel="nofollow">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Calcular-gastos-de-viaje" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

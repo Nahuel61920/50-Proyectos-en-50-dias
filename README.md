@@ -8,6 +8,7 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th align="center">Day</th>
 <th>Project</th>
 <th>Demo</th>
+<th>Codigo</th>
 </tr>
 </thead>
 <tbody>
@@ -16,6 +17,14 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <td align="center">01</td>
 <td>Licuadora</td>
 <td><a href="https://nahuel61920.github.io/Licuadora/" rel="nofollow">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Licuadora" rel="nofollow">Demo</a></th>
+</tr>
+
+<tr>
+<td align="center">02</td>
+<td>Dark mode</td>
+<td><a href="https://nahuel61920.github.io/Modo-nocturno/" rel="nofollow">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Modo-nocturno" rel="nofollow">Demo</a></th>
 </tr>
 
 </tbody>

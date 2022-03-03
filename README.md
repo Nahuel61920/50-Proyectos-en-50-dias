@@ -7,9 +7,9 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <tr>
 <th align="center">Day</th>
 <th>Project</th>
+<th>Fecha</th>
 <th>Demo</th>
 <th>Codigo</th>
-<th>Fecha</th>
 </tr>
 </thead>
 <tbody>
@@ -36,6 +36,14 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th>06/02/22</th>
 <td><a href="https://nahuel61920.github.io/generador-colores-random/" rel="nofollow" target="_blank">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/generador-colores-random" rel="nofollow" target="_blank">Repository</a></th>
+</tr>
+
+<tr>
+<td align="center">04</td>
+<td>Modal</td>
+<th>07/02/22</th>
+<td><a href="https://nahuel61920.github.io/modal/" rel="nofollow" target="_blank">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/modal" rel="nofollow" target="_blank">Repository</a></th>
 </tr>
 
 </tbody>

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#39f url(https://previews.123rf.com/images/popovia/popovia1702/popovia170200143/72835658-blue-background-abstract-blue-texture-or-pattern-.jpg);
+}
+
+.container{
+	width:1024px;
+	min-height:768px;
+	background:url(https://www.clarin.com/img/2019/06/11/ano-2017-puerto-madero-creado___XkqUBnSg4_1200x630__1.jpg) no-repeat;
+	background-size: cover;
+	margin:50px auto;
+	border:1px solid #fff;
+	position:relative;
+}
+
+h1{
+	color:#fff;
+	text-align:center;
+	padding:110px;
+	font-family:Best_Future_Bold;
+	text-shadow:1px 1px 3px #000;
+}
+
+section{
+	width:700px;
+	height:400px;
+	background:rgba(0, 0, 0, 0.3);
+	position:absolute;
+	left:162px;
+	top:150px;
+	border-top-left-radius:38px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border:3px solid #fff;
+}
+
+article{
+	position:absolute;
+	left:6px;
+	top:6px;
+	width:680px;
+	display:none;
+}
+
+article img{
+	float:left;
+	width: 280px;
+	height: 380px;
+	border-top-left-radius: 30px;
+}
+
+article p{
+	font-size:1.1em;
+	line-height:1.2em;
+	color:#fff;
+	text-shadow:1px 1px 2px #000;
+	font-family:Best_Future_Light;
+	float:right;
+	width:385px;
+	margin-bottom:15px;
+}
+
+article span.amarillo{
+	color:yellow;
+}
+
+article span.verde{
+	color:rgba(103,241,103,1.00);
+}
+
+nav{
+	width:700px;
+	height:60px;
+	border:3px solid #fff;
+	position:absolute;
+	left:162px;
+	top:565px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:38px;
+	background:rgba(0, 0, 0, 0.3);
+}
+
+nav ul{
+	list-style:none;
+	margin-top:22px;
+}
+
+nav ul li{
+	width:33%;
+	float:left;
+	text-align:center;
+	font-family:Best_Future_Bold;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	text-decoration:none;
+	border:1px #fff solid;
+	color:#fff;
+	padding:15px 75px;
+}
+
+nav ul li:last-child a:link,  nav ul li:last-child a:visited{
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:38px;
+}
+
+nav ul li a:hover{
+	background:#fff;
+	color:#666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -142,5 +142,12 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Color-selector" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">17</td>
+<td>Formulario Clasico JS</td>
+<th>20/02/22</th>
+<td><a href="https://nahuel61920.github.io/FormularioJs-Clasico/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/FormularioJs-Clasico" rel="nofollow">Repository</a></th>
+</tr>
 </tbody>
 </table>

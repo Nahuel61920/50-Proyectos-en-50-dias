@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario clasico</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+<div class="supercontainer">
+	<div class="container2">
+    <div class="content">
+      <div class="sidebar">
+        <img src="img/libro.jpg" />    
+      </div>
+      <div id="formulario">
+        <form method="post" action="enviar.php" onSubmit="" id="general" name="general">
+          <fieldset class="arriba">
+            <h1><strong>AGUJAS EN LA MIEL</strong></h1>
+            <input type="checkbox" name="deseo" id="deseo" checked="checked" class="css-checkbox" />
+            <label for="deseo" class="deseo css-label">Sí, deseo reservar el libro.</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" class="entero"/>
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección de entrega"  class="entero"/>
+            <input type="text" id="localidad" name="localidad" placeholder="Localidad" class="mitad l"/>
+            <input type="text" id="codigo_postal" name="codigo_postal" placeholder="Código Postal" class="mitad r"/>
+            <input type="text" id="movil" name="movil" placeholder="Teléfono móvil" class="mitad l"/>
+            <input type="text" id="email" name="email" placeholder="Correo Electrónico" class="mitad r"/>
+          </fieldset>
+
+          <br class="clearfloat"/>
+
+          <fieldset class="left">
+            <textarea id="mensaje" class="mensaje" name="mensaje" placeholder="Si tienes algún comentario"></textarea>
+          </fieldset>
+
+          <fieldset class="right">
+            <p>El poemario de Esteban Carrasco instala el mundo de las paradojas en el centro de la escena amatoria. <br> 
+              El joven poeta apuesta a la poesía amorosa con el riesgo que supone incursionar por uno de los tópicos más recurrentes de la literatura.</p>
+            <div class="bloquel">
+              <p class="etiqueta">Edición en<br/>
+              tapa blanda</p>
+              <span class="precio">500</span>
+              <span class="euros">$</span>
+            </div>  
+
+            <div class="bloquer">
+              <p class="etiqueta">Edición en<br/>
+              tapa dura</p>
+              <span class="precio">900</span>
+              <span class="euros">$</span>
+              <span class="mensaje2">Incluirá un cartel <strong>de regalo</strong></span>
+            </div>  
+            
+            <p class="dos">Marca el número de ejemplares que desees, en uno u otro acabado y envíanos tu solicitud. Te mandaremos un mail cuando el libro vaya a imprimirse y la fecha aproximada en la que recibirás tu/s ejemplar/es. En ese mismo mail te indicaremos el precio final y la Cuenta Corriente donde efectuar el pago</p>
+
+            <fieldset class="ultima">
+              <fieldset class="ultimal">
+                <input type="checkbox" name="tapa_blanda" id="tapa_blanda" class="css-checkbox2" />
+                <label for="tapa_blanda" class="tapa_dura css-label2">
+                <span class="parte1">Nº</span>  <span class="parte2">ejemplares en tapa blanda</span>
+                </label><input type="text" id="numero_tapa_blanda" name="numero_tapa_blanda" class="numero" />
+              </fieldset>
+      
+              <fieldset class="ultimar">     	
+                <input type="checkbox" name="tapa_dura" id="tapa_dura" class="css-checkbox2" />
+                <label for="tapa_dura" class="tapa_dura css-label2">
+                <span class="parte1">Nº</span>  <span class="parte2">ejemplares en tapa dura</span>
+                </label><input type="text" id="numero_tapa_dura" name="numero_tapa_dura" class="numero" />
+              </fieldset>
+            </fieldset>
+                    
+            <br class="clearfloat"/>
+                    
+            <fieldset class="factura_div">
+              <input type="checkbox" name="factura" id="factura" class="factura_checkbox css-checkbox" />
+              <label for="factura" class="factura css-label">
+              <span class="parte1">Voy a querer factura con IVA. CIF:</span> <input type="text" id="cif" name="cif" class="numero2" /> 
+              </label>
+            </fieldset>
+                    
+              <p class="tres">Gastos de envío aparte, salvo que se recojan en las oficinas de la editoral</p>
+              <a href="#" id="enviar" class="enviar"><img src="img/boton.jpg"/></a>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,318 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#fff;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+h1{
+	font-size:1.3em;
+	font-weight:normal;
+}
+
+.supercontainer{
+	width:100%;
+	height:100%;
+}
+
+.container2{
+	width:900px;
+	margin:30px auto;
+	padding:14px;
+	min-height:600px;
+	background:rgb(243, 239, 230);
+	position:relative;
+	
+}
+
+.content{
+	width:100%;
+	float:left;
+	min-height:512px;
+}
+
+.content img{
+	float:left;
+}
+
+#formulario{
+	color:#37352f;
+}
+
+#formulario input{
+	border:dashed 1px #fff;
+	background:#fff;
+	border-radius:75px;
+	-moz-border-radius:75px;
+	-webkit-border-radius:75px;
+	color:#000;
+}
+
+
+::-webkit-input-placeholder {color:#37352f; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11px;}
+::-moz-placeholder {color:#37352f; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11px;}
+input:-moz-placeholder {color:#37352f; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11px;}
+#formulario input:placeholder {color:#37352f; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11px;}
+
+
+#formulario .arriba{
+	width:710px;
+	padding:10px 0 0 0;
+	margin:0;
+	float:right;
+	border:none;
+}
+
+#formulario input.entero{
+	width:690px;
+	height:12px;
+	margin:5px 0 0 0;
+	padding:8px;
+}
+
+#formulario input.mitad{
+	width:330px;
+	height:12px;
+	margin:5px 0 0 0;
+	padding:8px;
+}
+
+.l{
+	float:left;
+}
+
+.r{
+	float:right;
+}
+
+
+input[type=checkbox].css-checkbox{
+	position:absolute;
+	overflow:hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-3px;
+	padding:0;
+	border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label{
+	padding-left:30px;
+	padding-top:4px;
+	height:23px;
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label{
+	background-position:0 -26px;
+}
+
+.css-label{
+	background-image:url(../img/checked.jpg);
+}
+
+#formulario .left{
+	width:160px;
+	height:317px;
+	float:left;
+	border:0;
+}
+
+#formulario .right{
+	width:710px;
+	height:317px;
+	float:right;
+	border:0;
+}
+
+#formulario .mensaje{
+	border:dashed 1px #fff;
+	background:#fff;
+	border-radius:20px;
+	width:140px;
+	height:317px;
+	margin-left:10px;
+	padding:8px;
+	color:#37352f;
+	font-size:9px;
+}
+	
+	
+	
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#formulario p{
+	margin:10px 0;
+	font-size:16px;
+	color:#37352f;
+}
+
+.bloquel{
+	float:left;
+	width:289px;
+}
+
+.bloquer{
+	float:right;
+	width:377px;
+}
+
+.bloquel, .bloquer{
+	background:#8e7c30;
+	border-radius:15px;
+	font-size:16px;
+	padding:5px 5px 5px 10px;
+}
+
+p.etiqueta{
+	float:left;
+	color:#fff !important;
+	width:90px;
+	font-size:156px;
+}
+
+span.precio{
+	font-size:45px;
+	float:left;
+	color:#fff !important;
+}
+
+span.euros{
+	font-size:25px !important;
+	float:left;
+	margin:5px 0 0 5px;
+	color:#fff !important;
+}
+
+span.mensaje2{
+	color:#ede0b9;
+	float:left;
+	font-size:15px;
+	width:140px;
+	margin:10px 20px;
+}
+
+
+p.dos{
+	margin:10px 0  !important;
+	padding-top:10px;
+	font-size:12px !important;
+	color:#37352f;
+}
+
+p.tres{
+	margin:0;
+	font-size:13px !important;
+	color:#37352f
+}
+
+.ultima{
+	width:680px;
+	border:dashed 1px #fff;
+	background:#fff;
+	border-radius:75px;
+	height:31px;
+	padding-left:15px;
+	
+}
+
+.ultimal, .ultimar{
+	width:300px;
+	padding:0;
+	margin:0;
+	border:none;
+	height:12px;
+}
+
+.ultimal{
+	float:left;
+}
+
+.ultimar{
+	float:right;
+}
+
+#formulario input.numero{
+	width:20px;
+	background:none;
+	border-bottom:1px solid #37352f;
+	border-radius:0;
+	padding:3px;
+}
+
+.tapa_dura{
+	padding-top:6px;
+}
+
+
+input[type=checkbox].css-checkbox2{
+	position:absolute;
+	overflow:hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-3px;
+	padding:0;
+	border:0;
+}
+
+input[type=checkbox].css-checkbox2 + label.css-label2{
+	padding-left:40px;
+	padding-top:7px;
+	height:26px;
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox2:checked + label.css-label2{
+	background-position:0 -32px;
+}
+
+.css-label2{
+	background-image:url(../img/checked.png);
+}
+
+.factura_div{
+	padding:0;
+	margin:10px 0 0 0;
+	width:680px;
+	border:0;
+}
+
+input.numero2{
+	border:0 !important;
+	background:none !important;
+	border-radius:none;
+}
+
+.enviar{
+	width:154px;
+	height:74px;
+	position:absolute;
+	bottom:20px;
+	right:0;
+}
+
+.enviar:hover{
+	opacity:0.7;
+}

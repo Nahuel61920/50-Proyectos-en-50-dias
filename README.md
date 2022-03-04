@@ -94,5 +94,12 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Progres-circle" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">11</td>
+<td>Slider img</td>
+<th>14/02/22</th>
+<td><a href="https://nahuel61920.github.io/Slider-img/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Slider-img" rel="nofollow">Repository</a></th>
+</tr>
 </tbody>
 </table>

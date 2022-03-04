@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --left-bg: rgba(87, 94, 236, 0.7);
+    --right-bg: rgba(236, 87, 191, 0.7);
+    --hover-width: 75%;
+    --other-width: 25%;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    white-space: nowrap;
+}
+
+.btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1.5rem;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left{
+    left: 0;
+    background: url(http://2.bp.blogspot.com/-CVHkP6Jm91w/VWd3-453XJI/AAAAAAAAABk/jPlGEq_c-M8/s1600/moda-masculina-inverno-2015-img-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg);
+}
+
+.split.right{
+    right: 0;
+    background: url(https://i.ytimg.com/vi/e32r-2PoFFo/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg);
+}
+
+.hover-left .left {
+    width: var(--hover-width);
+}
+
+.hover-left .right {
+    width: var(--other-width);
+}
+
+.hover-right .right {
+    width: var(--hover-width);
+}
+
+.hover-right .left {
+    width: var(--other-width);
+}

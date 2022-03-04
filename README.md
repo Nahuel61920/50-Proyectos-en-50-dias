@@ -126,5 +126,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Efecto-ico" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">15</td>
+<td>Split landig page</td>
+<th>18/02/22</th>
+<td><a href="https://nahuel61920.github.io/Split-landig-page/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Split-landig-page" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

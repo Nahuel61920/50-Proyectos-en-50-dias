@@ -1,0 +1,33 @@
+body{
+	background:#a3c7f7;
+}
+#cambio{
+	width:280px;
+	margin:100px auto;
+	height:280px;
+	line-height:250px;
+	text-align:center;
+	font-size:1em;
+}
+button{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-weight:bold;
+	margin-left:45%;
+	background:#8B090B;
+	color:#fff;
+	cursor:pointer;
+}
+
+button:hover{
+	background:#837C7C;
+}
+.encendido{
+	background:url(../bombillas.jpg) no-repeat -46px -161px;
+
+}
+.apagado{
+	background:url(../bombillas.jpg) no-repeat -304px -161px;
+}

@@ -134,5 +134,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Split-landig-page" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">16</td>
+<td>Color selector</td>
+<th>19/02/22</th>
+<td><a href="https://nahuel61920.github.io/Color-selector/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Color-selector" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

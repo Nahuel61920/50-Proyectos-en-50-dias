@@ -101,5 +101,14 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <td><a href="https://nahuel61920.github.io/Slider-img/">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/Slider-img" rel="nofollow">Repository</a></th>
 </tr>
+
+<tr>
+<td align="center">12</td>
+<td>To-do list</td>
+<th>15/02/22</th>
+<td><a href="https://nahuel61920.github.io/To-do-list/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/To-do-list" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

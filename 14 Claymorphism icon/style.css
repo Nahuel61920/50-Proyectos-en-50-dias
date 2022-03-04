@@ -1,0 +1,89 @@
+
+.sci-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    min-height: 100vh;
+}
+
+.sci{
+    position: relative;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li::before{
+    position: absolute;
+    content: attr(data-text);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,calc(-50% + 120px));
+    font-size: 14vw;
+    pointer-events: none;
+    font-weight: 700;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.sci li:hover::before{
+    opacity: 0.1;
+    transform: translate(-50%,calc(-50% + 150px));
+}
+
+.sci li a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+    background: #fafafa;
+    color: #333;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1),
+    5px 5px 30px rgba(0,0,0,0.05),
+    inset -2px -2px 5px rgba(0,0,0,0.1),
+    inset 2px 2px 5px rgba(0,0,0,0.05);
+    transition: 0.5s;
+}
+
+.sci li a:hover.facebook{
+    background: #1877f2;
+}
+
+.sci li a:hover.instagram{
+    background: #e4405f;
+}
+
+.sci li a:hover.whatsapp{
+    background: #25d366;
+}
+
+.sci li a:hover.twitter{
+    background: #0099ff;
+}
+
+.sci li a:hover.youtube{
+    background: #ff0000;
+}
+
+.sci li a:hover{
+    transform: scale(1.2);
+}
+
+.sci li a .bx{
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.sci li a:hover .bx{
+    color: #fff;
+    transform: scale(1.75);
+}

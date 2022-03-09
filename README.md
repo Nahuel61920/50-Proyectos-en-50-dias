@@ -174,5 +174,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Buscador-de-autos" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">21</td>
+<td>Tweets</td>
+<th>24/02/22</th>
+<td><a href="https://nahuel61920.github.io/Tweets/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Tweets" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

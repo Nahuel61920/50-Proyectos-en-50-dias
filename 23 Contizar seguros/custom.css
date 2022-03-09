@@ -1,0 +1,118 @@
+body {
+    background: url("https://www.hd-tecnologia.com/imagenes/articulos/2021/06/Grand-Theft-Auto-V-a-8k-con-MODS-y-Ray-Tracing.jpg") no-repeat;
+    background-size: cover;
+}
+.btn.btn-raised.btn-primary {
+    background-color: #00838F!important;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+}
+.error {
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #F4511E;
+}
+.correcto {
+    background-color: rgb(211, 249, 187);
+    border: 1px solid rgb(50, 167, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(4, 150, 50);
+}
+.error p {
+    margin:0;
+}
+#contenido {
+    margin-top: 60px;
+    background-color: white;
+    -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+}
+.contenido-formulario {
+    margin-top: 30px;
+}
+#cargando {
+    text-align: center;
+}
+#cargando img {
+    display: none;
+    margin: 0 auto;
+}
+#resultado  {
+    margin-bottom: 40px;
+}
+#resultado div {
+    border: 1px solid #26C6DA;
+    text-align: center;
+    padding: 0  0 20px 0;
+}
+#resultado div p {
+    margin-bottom: 0;
+}
+#resultado div p.header {
+    background-color: #26C6DA;
+    margin-bottom: 10px;
+    color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #26C6DA;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }

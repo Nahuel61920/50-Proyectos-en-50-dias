@@ -192,16 +192,8 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 
 <tr>
 <td align="center">23</td>
-<td>Cotizador seguros</td>
+<td>Cotizar seguros</td>
 <th>26/02/22</th>
-<td><a href="https://nahuel61920.github.io/Cotizador-de-seguros/">Demo</a></td>
-<th><a href="https://github.com/Nahuel61920/Cotizador-de-seguros" rel="nofollow">Repository</a></th>
-</tr>
-
-<tr>
-<td align="center">23</td>
-<td>Cotizador seguros</td>
-<th>27/02/22</th>
 <td><a href="https://nahuel61920.github.io/Cotizador-de-seguros/">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/Cotizador-de-seguros" rel="nofollow">Repository</a></th>
 </tr>

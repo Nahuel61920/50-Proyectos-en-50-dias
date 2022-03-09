@@ -1,0 +1,114 @@
+:root {
+    --linea-border-fill: #219dd6;
+    --linea-border-empty: #bdbdbd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 90px;
+}
+
+.fab{
+    font-size: 4rem;
+}
+
+.active .fa-html5{
+    color: #ff5773;
+}
+.active .fa-css3-alt{
+    color: #264de4;
+}
+.active .fa-js{
+    color: #f7e010;
+}
+.active .fa-react{
+    color: #61dbfb;
+}
+
+.container{
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 700px;
+}
+
+.progress-container::before{
+    content: "";
+    background: var(--linea-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 7px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.progress{
+    background: var(--linea-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle {
+    background: #fff;
+    color: #999;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 7px solid #b2bec3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.circle.active {
+    border-color: var(--linea-border-fill);
+}
+
+.btn{
+    background-color: var(--linea-border-fill);
+    color: #fff;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.btn:active{
+    transform: scale(0.97);
+}
+
+.btn:disabled {
+    background-color: var(--linea-border-empty);
+    cursor: not-allowed;
+}

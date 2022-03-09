@@ -205,5 +205,14 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <td><a href="https://nahuel61920.github.io/Gastos-semanales/">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/Gastos-semanales" rel="nofollow">Repository</a></th>
 </tr>
+
+<tr>
+<td align="center">25</td>
+<td>Step progress bar</td>
+<th>28/02/22</th>
+<td><a href="https://nahuel61920.github.io/Step-Progress-Bar/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Step-Progress-Bar" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

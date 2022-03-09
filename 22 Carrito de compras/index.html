@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito 2</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.jpg" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Cursos En Línea</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>HTML5 y CSS3 para Principiantes</h4>
+                        <p>Nahuel Esteban</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso3.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bootstrap 4 y Sass</h4>
+                            <p>Nahuel Esteban</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$150</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>JavaScript para Principiantes</h4>
+                            <p>Nahuel Esteban</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$150</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> 
+            </div>
+        </div> 
+    <script src="script.js"></script>
+</body>
+</html>

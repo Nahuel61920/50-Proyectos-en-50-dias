@@ -198,5 +198,12 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Cotizador-de-seguros" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">24</td>
+<td>Weekly expense</td>
+<th>27/02/22</th>
+<td><a href="https://nahuel61920.github.io/Gastos-semanales/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Gastos-semanales" rel="nofollow">Repository</a></th>
+</tr>
 </tbody>
 </table>

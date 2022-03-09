@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <title>Gasto Semanal</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">Gasto Semanal</h1>
+        </header>
+        <section class="contenido-principal">
+            <div class="row">
+                <div class="col ">
+                    <div class="contenido primario">
+                        <h2 class="text-center">Añade tus gastos aqui</h2>
+                        <form id="agregar-gasto" action="#">
+                            <div class="form-group">
+                                <label for="gasto">Gasto:</label>
+                                <input type="text" class="form-control" id="gasto" placeholder="Nombre Gasto">
+                            </div>
+                            <div class="form-group">
+                                <label for="cantidad">Cantidad:</label>
+                                <input type="text" class="form-control" id="cantidad" placeholder="Cantidad en $">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Agregar</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="contenido secundario">
+
+                        <h2 class="text-center">Listado</h2>
+
+                        <div id="gastos">
+                            <ul class="list-group"></ul>
+                        </div>
+                        <div id="presupuesto" class="presupuesto">
+                            <div class="alert alert-primary">
+                                <p>Presupuesto: $ <span id="total"></span> </p>
+                            </div>
+                            <div class="restante alert alert-success">
+                                <p>Restante: $ <span id="restante"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tweets</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+    <div id="contenido">
+        <div class="container">
+
+            <h1>Generador de tweets</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="tweet">Tweet:</label>
+                    <form id="formulario">
+                        <label for="tweet"></label>
+                        <textarea id="tweet" class="u-full-width"></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2>Mis Tweets</h2>
+                    <div id="lista-tweets"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

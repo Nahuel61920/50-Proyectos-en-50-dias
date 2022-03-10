@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+}
+
+#main {
+    width: 800px;
+    font-size: 1.8rem;
+    background: rgb(236, 62, 77);
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+#limpiar {
+    padding: 8px 20px;
+}
+#canvas {
+    border: 2px solid #000;
+    margin-top: 20px;
+}

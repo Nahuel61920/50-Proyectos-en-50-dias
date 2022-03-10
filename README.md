@@ -246,5 +246,12 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Pomodoro" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">30</td>
+<td>Administrador de Clientes</td>
+<th>05/03/22</th>
+<td><a href="https://nahuel61920.github.io/Administrador-de-Clientes/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Administrador-de-Clientes" rel="nofollow">Repository</a></th>
+</tr>
 </tbody>
 </table>

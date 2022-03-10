@@ -214,5 +214,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Step-Progress-Bar" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">26</td>
+<td>Blurry loading</td>
+<th>01/03/22</th>
+<td><a href="https://nahuel61920.github.io/Blurry-loading/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Blurry-loading" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

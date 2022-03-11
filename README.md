@@ -261,5 +261,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <td><a href="https://nahuel61920.github.io/Calendario/">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/Calendario" rel="nofollow">Repository</a></th>
 </tr>
+
+<tr>
+<td align="center">32</td>
+<td>Instant search</td>
+<th>07/03/22</th>
+<td><a href="https://nahuel61920.github.io/Busqueda-instantanea/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Busqueda-instantanea" rel="nofollow">Repository</a></th>
+</tr>
 </tbody>
 </table>

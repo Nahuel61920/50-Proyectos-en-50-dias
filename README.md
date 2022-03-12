@@ -269,5 +269,14 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <td><a href="https://nahuel61920.github.io/Busqueda-instantanea/">Demo</a></td>
 <th><a href="https://github.com/Nahuel61920/Busqueda-instantanea" rel="nofollow">Repository</a></th>
 </tr>
+
+<tr>
+<td align="center">33</td>
+<td>Teclado virtual</td>
+<th>08/03/22</th>
+<td><a href="https://nahuel61920.github.io/Teclado-virtual/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Teclado-virtual" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

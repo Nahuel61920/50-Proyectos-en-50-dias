@@ -278,5 +278,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Teclado-virtual" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">34</td>
+<td>Task app</td>
+<th>09/03/22</th>
+<td><a href="https://nahuel61920.github.io/Task/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Task" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

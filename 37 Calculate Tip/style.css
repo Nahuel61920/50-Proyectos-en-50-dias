@@ -1,0 +1,90 @@
+h1,
+h2,
+h4,
+h5 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#platos {
+    background-color: rgba(1, 1, 1, 0.8);
+    width: 60%;
+    min-height: 610px;
+    text-align: center;
+}
+
+#comidas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 13rem;
+}
+
+.orden {
+    background-color: rgba(1, 1, 1, 0.8);
+    min-height: 610px;
+    width: 30%;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+}
+
+body {
+    background: url("https://ak.picdn.net/shutterstock/videos/22118923/thumb/1.jpg")center center fixed no-repeat;
+    background-size: cover;
+}
+
+.carta_de_ordenes {
+    color: white;
+}
+
+.carta_de_comida {
+    background-color: aliceblue;
+    width: 350px;
+    height: 70px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#agregar_a_orden {
+    background-color: #2ed234;
+    border: none;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#ordenes_agregadas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 30vh;
+    overflow-y: scroll;
+}
+
+.total_de_orden {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#propina_sugerida,
+#precio_total {
+    background-color: #2ed234;
+    color: #000;
+    font-size: 20px;
+    padding: 5px;
+}

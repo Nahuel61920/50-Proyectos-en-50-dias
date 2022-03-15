@@ -1,0 +1,72 @@
+body{
+    background: url("https://img.freepik.com/vector-gratis/fondo-degradado-oscuro-espacio-copia_53876-99548.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+.form{
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border:  2px;
+}
+input{
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+}
+fieldset{
+    border: #173441 2px solid;
+    border-radius: 10px;
+    background-color: #1da583;
+}
+button{
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+    width: 100px;
+    font-family: 'arial';
+    font-size: 15px;  
+    border-radius: 2px;
+    padding: 10px;
+    margin-left:77%;
+}
+
+.alerta {
+    padding: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.4rem;
+}
+.error {
+    background-color: red;
+}
+
+.tab{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'arial';
+    background-color: #fdfef7;
+    border: #173441 2px solid;
+    margin: 0 auto;
+    width: 500px;
+}
+thead{
+    border: #173441 2px solid;
+    font-weight: bold;
+}
+tr{
+    border: #173441 2px solid;
+}
+td{
+    border: #173441 2px solid;    
+}

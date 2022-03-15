@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulador de Prestamo</title>
+</head>
+<body>
+    <div class="form">
+        <fieldset class="fieldset">
+            <h1>COTIZADOR DE PRESTAMO</h1>
+            <form>
+                <div>
+                    <label for="capital">CAPITAL 
+                        <input type="text" placeholder="Ingrese el prestado" id="capital">
+                    </label>
+                </div>
+                <div>
+                    <label for="couta">COUTAS 
+                        <input type="text" placeholder="Ingrese las cuotas" id="couta">
+                    </label>
+                </div>
+                <div>
+                    <label for="interes">INTERES
+                        <input type="text" placeholder="Ingrese el interés" id="interes">
+                    </label>
+                </div>
+            </form>
+        <button id="btn-calc">CALCULAR</button>
+        </fieldset>
+        <hr>
+        <table class="tab">
+            <thead>
+                <tr>
+                    <td>NRO</td>
+                    <td>CAPITAL</td>
+                    <td>INTERES</td>
+                    <td>IMPORTE A PAGAR</td>
+                </tr>
+            </thead>
+            <tbody id="tab">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="ft">TOTAL</td>
+                    <td id="t1"></td>
+                    <td id="t2"></td>
+                    <td id="t3"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -310,5 +310,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/Cotizar-Prestamos" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">38</td>
+<td>Nickname generator</td>
+<th>13/03/22</th>
+<td><a href="https://nahuel61920.github.io/NickName-Generator/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/NickName-Generator" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

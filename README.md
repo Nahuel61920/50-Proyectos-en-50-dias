@@ -318,5 +318,13 @@ Este es un reto personal de crear un mini proyecto de html-css-javascript, por 5
 <th><a href="https://github.com/Nahuel61920/NickName-Generator" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">39</td>
+<td>Doble click like</td>
+<th>14/03/22</th>
+<td><a href="https://nahuel61920.github.io/Doble-click-like/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Doble-click-like" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 ## 50 proyectos en 50 días
 
-Este es un reto personal de crear un mini proyecto de html-css-javascript, por 50 dias seguidos.
+Este es un reto personal de crear un mini proyecto de html-css-javascript, por 50 dias seguidos.<br>
 This is a personal challenge to create a mini html-css-javascript project, for 50 days in a row.
 
 <table>

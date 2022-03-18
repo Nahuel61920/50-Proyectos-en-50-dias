@@ -1,0 +1,138 @@
+ /* general styling */
+ 
+ *{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url("https://wallpapercave.com/wp/wp3532310.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.container {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    min-width: 350px;
+    height: 63vh;
+    margin: 0 auto;
+    background-color: rgb(179,178,176, 0.6);
+    position: relative;
+    z-index: 100;
+}
+
+/* content styling */
+
+h1 {
+    color: white;
+    padding-top: 20px;
+}
+
+form {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+
+input, select, button {
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=text], select {
+    padding-left: 5px;
+    text-indent: 5px;
+}
+
+button {
+    margin: 20px;
+    width: 85%;
+    background-color: white;
+}
+
+button:hover {
+    margin: 20px;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+select {
+    height: 35px;
+}
+
+/* card styling */
+
+.card-container {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 5px;
+    position: relative;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+img {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 100px;
+    border: 1px solid black;
+    position: absolute;
+    right: -12px;
+    bottom: -12px;
+    height: 26px;
+    width: 26px;
+}
+
+p {
+    margin: 3px;
+    line-height: 25px;
+}
+
+.trash-hover {
+    background-color: rgba(177, 38, 38, 0.8);
+}
+
+/* create less space between elements on a wide screen */
+
+@media only screen and (min-width: 600px) {
+    
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .card {
+        margin: 20px;
+    }
+    
+}
+

@@ -343,5 +343,13 @@ This is a personal challenge to create a mini html-css-javascript project, for 5
 <th><a href="https://github.com/Nahuel61920/Api-clima" rel="nofollow">Repository</a></th>
 </tr>
 
+<tr>
+<td align="center">42</td>
+<td>Buscador canciones</td>
+<th>17/03/22</th>
+<td><a href="https://nahuel61920.github.io/Buscador-canciones/">Demo</a></td>
+<th><a href="https://github.com/Nahuel61920/Buscador-canciones" rel="nofollow">Repository</a></th>
+</tr>
+
 </tbody>
 </table>

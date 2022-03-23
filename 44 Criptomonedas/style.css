@@ -1,0 +1,118 @@
+body {
+    background-color: #0d352e;
+}
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+h1::after {
+    content: '';
+    width: 100px;
+    height:6px;
+    background-color: #0c469e;
+    display: block;
+}
+.container img {
+    margin-top: 150px;
+}
+
+label {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    height: auto;
+}
+.error {
+    background-color: #b7322c;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resultado {
+    color: white;
+
+}
+.resultado h2 {
+    font-weight: bold;
+    color: white;
+}
+
+
+.resultado p {
+    font-size: 18px!important;
+}
+.resultado p span {
+    font-weight: bold;
+}
+p.precio{
+    font-size: 30px!important;
+}
+
+@media (min-width:480px) {
+    form {
+        margin-top: 150px;
+    }
+}
+
+
+.spinner {
+    margin: 100px auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    } 40% { 
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}

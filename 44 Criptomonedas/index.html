@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar Criptomonedas</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="one-half column">
+                <img src="https://www.osi.es/sites/default/files/actualidad/blog/2018/image-3046639_960_720.png">
+            </div>
+            <div class="one-half column">
+                <form id="formulario">
+                    <div class="row">
+                        <label>Elige tu Moneda</label>
+                        <select
+                            class="u-full-width"
+                            id="moneda"
+                            name="moneda"
+                        >
+                                <option value="">Elige tu moneda</option>
+                                <option value="USD">Dolar Estadounidense</option>
+                                <option value="MXN">Peso Mexicano</option>
+                                <option value="GBP">Libras</option>
+                                <option value="EUR">Euros</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                    <div>
+                        <label>Elige tu Criptomoneda</label>
+                        <select 
+                            class="u-full-width"
+                            id="criptomonedas"
+                            name="criptomoneda"
+                        >
+                            <option value="">Elige tu criptomoneda</option>
+                        </select>
+                    </div>
+                    </div>
+                    <input class="button-primary u-full-width" type="submit" value="Cotizar" />
+
+                    <div id="resultado" class="resultado"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

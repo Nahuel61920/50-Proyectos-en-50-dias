@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Usuario en GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="box-search-user" id="box-search-user">
+        <div class="body-search-user">
+            <h1>Buscador de perfil en GitHub</h1>
+            <p>Ingresa un perfil de GitHub y consulta sus estadísticas mas recientes.</p>
+
+            <input type="text" id="input_search">
+            <button id="button_search"><p>Buscar perfil en GitHub</p></button>
+            <p class='error-msg' id="error-msg" style="display: none;"></p>
+        </div>
+    </div>
+
+    <div class="box-user" id="box-user" style="display: none;">
+        <div class="arrow-to-menu">
+            <img src="assets/arrow-left.svg" alt="Arrow to menu" id="arrow_to_menu">
+        </div>
+        <div class="user-first-info">
+            <h1 id="user_name"></h1>
+            <div class="grid-first-info">
+                <img src="" alt="Foto del usuario" id="user_photo">
+                <div class="right-text">
+                    <p id="user_desc"></p>
+                    <p id="user_location"></p>
+                    <p id="user_email"></p>
+                    <div id="user_social_media">
+                        <p>Redes sociales:</p>
+                        <a target="blank" id="twitter"><img src="assets/twitter-outlined.svg" alt="" class="icon-social-media"></a>
+                        <a target="blank" id="blog"><img src="assets/blogger-rect.svg" alt="" class="icon-social-media"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="grid-stats">
+                <div class="repositories">
+                    <p id="repositories">32</p>
+                    <p>Repositorios</p>
+                </div>
+                <div class="followers">
+                    <p id="followers">4,5K</p>
+                    <p>Seguidores</p>
+                </div>
+                <div class="following">
+                    <p id="following">100</p>
+                    <p>Siguiendo</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lastest-repositories">
+            <h3>Últimos repositorios</h3>
+            <div class="respositories">
+                <div class="box-repository">
+                    <a href="#" target="_blank" id="repository-1"></a>
+                </div>
+                <div class="box-repository">
+                    <a href="#" target="_blank" id="repository-2"></a>
+                </div>
+                <div class="box-repository">
+                    <a href="#" target="_blank" id="repository-3"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

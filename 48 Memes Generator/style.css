@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(67, 157, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+label{
+  font-size: 20px;
+}
+button{
+  background-color: aqua;
+  width: 200px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.text-input {
+  width: 300px;
+}
+.meme-insert {
+  width: 300px;
+}
+.meme-upload {
+  margin: 20px;
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  margin: 20px;
+}
+.meme-img-container {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  float: left;
+  height: 500px;
+  margin: 20px;
+  position: relative;
+  width: 500px;
+}
+.meme-img {
+  left: 0;
+  border-radius: 15px;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.labelMeme {
+  font-size: 20px;
+  left: 820px;
+  position: absolute;
+}
+.famous-memes {
+  display: inline-block;
+  height: 500px;
+  margin: 20px;
+  width: 200px;
+}
+#meme-1 {
+  cursor: pointer;
+  max-width: 60%;
+}
+#meme-2 {
+  cursor: pointer;
+  max-width: 60%;
+}
+#meme-3 {
+  cursor: pointer;
+  max-width: 60%;
+}
+#meme-4 {
+  cursor: pointer;
+  max-width: 60%;
+}
+.meme-text {
+  font-size: 25px;
+  font-weight: bold;
+  left: 10%;
+  margin: 0 auto;
+  max-height: 90%;
+  max-width: 70%;
+  padding: 20px;
+  position: absolute;
+  top: 75%;
+  word-wrap: break-word;
+  z-index: 1;
+}

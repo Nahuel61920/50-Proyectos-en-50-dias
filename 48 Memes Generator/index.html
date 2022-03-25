@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Genere su propio Meme</h1>
+  <div>
+    <form>
+      <label for="text-input">Inserta un texto:</label><br>
+      <input type="text" id="text-input" class="text-input" name="text-input" oninput="writeOnImg();" maxlength="60" placeholder="Tu texto debe tener menos de 60 caracteres">
+    </form>
+  </div>
+
+  <div class="meme-upload">
+    <form>
+      <label for="meme-insert">Elige una imagen</label><br>
+      <input type="file" id="meme-insert" class="meme-insert" name="meme-insert">
+    </form>
+  </div>
+
+  <div>
+    <label>Elige un borde</label><br>
+    <button id="button1">Border 1</button>
+    <button id="button2">Border 2</button>
+    <button id="button3">Border 3</button>
+  </div>
+
+  <div class=container>
+    <label class="labelMeme">Usa un meme famoso:</label><br>
+    <section id="meme-image-container" class="meme-img-container">
+      <img id="meme-image" class="meme-img" src="" alt="Inserta Imagen">
+      <p id="meme-text" class="meme-text"></p>
+    </section>
+
+    <section class="famous-memes">
+      <img id="meme-1" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/573dc5f80819a13ebf650af83462a06c~c5_720x720.jpeg?x-expires=1648234800&x-signature=uw6yIX3%2Fv35wz2cPInbqwkhxSPU%3D">
+      <img id="meme-2" src="https://i.pinimg.com/originals/63/1f/16/631f16129a1d271b86f1ce6c1880751d.jpg">
+      <img id="meme-3" src="https://recursospracticos.com/wp-content/uploads/2021/07/plantilla-del-meme-perro-grande-y-perro-pequeno.jpg">
+      <img id="meme-4" src="https://www.laprensagrafica.com/__export/1569444049104/sites/prensagrafica/img/2019/09/25/lpwrlt37avbbljf6ukfvo37prq_crop1569444034729.jpg_1899857946.jpg">
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,7 +1,18 @@
-## 50 projects in 50 days
+<h2 align="center"> 50 projects in 50 days <h2>
 
-This is a personal challenge to create a mini html-css-javascript project, for 50 days in a row.<br>
-Este es un reto personal de crear un mini proyecto de html-css-javascript, por 50 dias seguidos.
+## 📝 About
+
+This is a personal challenge to create a mini html-css-javascript project, for 50 days in a row.
+
+<br>
+
+## 🎯 Goal
+
+The 50 projects in 50 days challenge aims to improve learning about HTML, CSS, and JavaScript. A challenge created by [Nahuel61920](https://github.com/Nahuel61920),
+
+<br>
+
+## 🗒 Challenges
 <table>
 <thead>
 <tr>
